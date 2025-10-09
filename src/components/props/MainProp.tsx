@@ -1,9 +1,15 @@
 import Button from "./button";
+import InterFaceProps from "./InterFaceProps";
 
 function MainProp() {
   return (
     <>
-      <Button text="Typescript with react js" />
+      <Button variant="pink-color" text="Typescript with react js" />
+      <InterFaceProps
+        text="click me"
+        ClassName=" bg-blue-400 text-white "
+        FontSize={12}
+      />
     </>
   );
 }
