@@ -1,9 +1,9 @@
-import MainProp from "./components/props/MainProp";
+import ListPage from "./components/Lists/ListPage";
 
 const App = () => {
   return (
     <>
-      <MainProp />
+      <ListPage />
     </>
   );
 };
