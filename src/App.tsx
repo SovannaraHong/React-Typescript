@@ -1,9 +1,11 @@
-import ListPage from "./components/Lists/ListPage";
+import MainProp from "./components/props/MainProp";
+import ChangeAmount from "./components/tax/ChangeAmount";
 
 const App = () => {
   return (
     <>
-      <ListPage />
+      <ChangeAmount />
+      <MainProp />
     </>
   );
 };
